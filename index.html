@@ -1,0 +1,160 @@
+<!DOCTYPE html><!-- it says render this file as a html document -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--it says all the texts in the webpage encoded by this  -->
+  <meta name="description" content="This is a personal webpage.">
+    <title>Hamid's Personal Site</title>
+</head>
+
+<body>
+  <hr size="3" noshade></hr>
+  <div class="header">
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact me</a>
+  </div>
+  <center>
+    <div class="row">
+      <div class="column">
+        <img src="Images/me.jpg" alt="Avatar" />
+      </div>
+      <div class="column">
+        <h1>Hamid Keshmiri Neghab</h1>
+        <p>
+          <em><strong>Ph.D. student of Electrical Engineerign </strong><br />
+          Interest : Machine-Learning, MPC, Computer-Vision<br />
+          Email : <a href="https://old.zcu.cz/about/people/staff.html?osoba=205714">neghab@fel.zcu.cz</a></em>
+        </p>
+      </div>
+    </div>
+  </center>
+  <hr size="3" noshade></hr>
+  <div class="Skills">
+    <h2>Skills:</h2>
+    <!-- <ul>
+      <li> C# , C++ , Java , HTML , PHP , CSS , BootStrap , VueJs</li>
+      <li> WordPress , Joomla , Drupal , PrestaShop</li>
+      <li> Android Studio , Eclipse , Adobe DreamWeaver , Visual Studio</li>
+      <li> Android Studio , Eclipse , Adobe DreamWeaver , Visual Studio</li>
+      <li>PhotoShop , Labview , Office , Network+  </li>
+    </ul> -->
+    <table>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>C#</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Python</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table>
+            <tr>
+              <td>HTML5</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>CSS3</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+    </table>
+  </div>
+
+  <div class="Education">
+    <h3>Educations:</h3>
+    <!-- <caption>Educations:</caption> -->
+    <table>
+    <thead>
+      <tr>
+        <th>Education</th>
+        <th>Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2008-2013</td>
+        <td>BSc in computer engineering, software</td>
+      </tr>
+      <tr>
+        <td>2013-2017</td>
+        <td>MSc in artificial intelligence</td>
+      </tr>
+      <tr>
+        <td>2020-up to now</td>
+        <td>PHD candidate in Electrical Engineering</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+</div>
+
+</body>
+
+</html>
+
+
+<style>
+  body{
+    background-image: url('Images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header{
+    padding: 10px;
+    margin: 10px;
+  }
+  img{
+      border-radius: 10%;
+  }
+  a{
+    margin: 10px;
+  }
+  li{
+    color: blue;
+    font-weight: bold;
+  }
+  h3{
+    float: left;
+    margin: 30px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .column{
+    float: left;
+    width: auto;
+    padding: 20px;
+  }
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  .Skills, .Education{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  table, th, td{
+    padding: 10px;
+    margin: 20px;
+    /* border: 2px solid black;
+    border-collapse: collapse; */
+  }
+  th, td{
+    padding: 5px;
+  }
+</style>
