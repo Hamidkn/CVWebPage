@@ -11,3 +11,5 @@ https://www.appbrewery.co/p/web-development-course-resources/
 https://devdocs.io/ 
 
 https://www.w3schools.com/
+
+https://colorhunt.co/
