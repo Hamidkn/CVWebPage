@@ -13,3 +13,7 @@ https://devdocs.io/
 https://www.w3schools.com/
 
 https://colorhunt.co/
+
+https://www.favicon.cc/
+
+https://favicon.io/
