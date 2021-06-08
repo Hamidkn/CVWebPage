@@ -20,5 +20,6 @@ https://favicon.io/
 
 https://fonts.google.com/
 
-
 https://www.flaticon.com/
+
+https://giphy.com/
