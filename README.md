@@ -17,3 +17,6 @@ https://colorhunt.co/
 https://www.favicon.cc/
 
 https://favicon.io/
+
+https://fonts.google.com/
+
